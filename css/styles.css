@@ -1,0 +1,104 @@
+
+#farewell-section {
+    display: none;
+}
+
+html {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#farewell-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#farewell-msg {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+#stats-div {
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+#stats-div table {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+#stats-div th, #stats-div td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#stats-div th {
+    background-color: #f2f2f2;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+#stats-div td {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.badge {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 28px;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+.badge-stone {
+    color: white;
+    background-color: #a9a9a9;
+}
+
+.badge-bronze {
+    color: white;
+    background-color: #cd7f32; 
+}
+
+.badge-iron {
+    color: white;
+    background-color: #b0c4de;
+}
+
+.badge-silicon {
+    color: white;
+    background-color: #f0e68c;
+}
